@@ -4,6 +4,7 @@ import "fmt"
 
 func intSeq() func() int {
 	i := 0
+	// hàm vô danh
 	return func() int {
 		i++
 		return i
